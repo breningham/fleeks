@@ -1,5 +1,11 @@
 aliases:
     fleeks: cd ~/.local/share/fleek
+    ls: lsd
+    ll: lsd -l
+    la: lsd -A
+    lt: lsd --tree
+    lla: lsd -lA
+    llt: lsd -l --tree
 allow_broken: false
 bling: default
 blocklist: []

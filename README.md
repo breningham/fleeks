@@ -20,3 +20,15 @@ $ apply-$(hostname)
 
 Your actual aliases are listed below:
     fleeks = "cd ~/.local/share/fleek";
+
+    la = "lsd -A";
+
+    ll = "lsd -l";
+
+    lla = "lsd -lA";
+
+    llt = "lsd -l --tree";
+
+    ls = "lsd";
+
+    lt = "lsd --tree";
