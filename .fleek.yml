@@ -24,6 +24,7 @@ packages:
     - lazygit
     - jq
     - neofetch
+    - btop
 paths:
     - $HOME/bin
     - $HOME/.local/bin

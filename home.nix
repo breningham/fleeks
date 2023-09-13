@@ -29,6 +29,7 @@
     pkgs.lazygit
     pkgs.jq
     pkgs.neofetch
+    pkgs.btop
     # Fleek Bling
     pkgs.git
     pkgs.htop
