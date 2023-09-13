@@ -1,11 +1,6 @@
 aliases:
-    fleeks: cd ~/.local/share/fleek
-    ls: lsd
-    ll: lsd -l
-    la: lsd -A
-    lt: lsd --tree
-    lla: lsd -lA
-    llt: lsd -l --tree
+  apply-brens-home-pc: nix run --impure home-manager/master -- -b bak switch --flake .#bingham@brens-home-pc
+  fleeks: cd ~/.local/share/fleek
 allow_broken: false
 bling: default
 blocklist: []
@@ -13,43 +8,43 @@ byo_git: false
 ejected: false
 flakedir: .local/share/fleek
 git:
-    autocommit: true
-    autopull: true
-    autopush: true
-    enabled: true
+  autocommit: true
+  autopull: true
+  autopush: true
+  enabled: true
 min_version: 0.8.4
 name: Fleek Configuration
 overlays: {}
 packages:
-    - helix
-    - adw-gtk3
-    - volta
-    - neovim
-    - lsd
-    - zsh
-    - lazygit
-    - jq
-    - neofetch
-    - btop
-    - atuin
-    - zoxide
+  - helix
+  - adw-gtk3
+  - volta
+  - neovim
+  - lsd
+  - zsh
+  - lazygit
+  - jq
+  - neofetch
+  - btop
+  - atuin
+  - zoxide
 paths:
-    - $HOME/bin
-    - $HOME/.local/bin
+  - $HOME/bin
+  - $HOME/.local/bin
 programs:
-    - dircolors
+  - dircolors
 shell: bash
 systems:
-    - arch: x86_64
-      home: ""
-      hostname: brens-home-pc
-      os: linux
-      username: bingham
+  - arch: x86_64
+    home: ""
+    hostname: brens-home-pc
+    os: linux
+    username: bingham
 track: nixos-unstable
 unfree: true
 users:
-    - email: brendan@ingham.dev
-      name: Brendan Ingham
-      ssh_private_key_file: /home/bingham/.ssh/id_inghamdev
-      ssh_public_key_file: /home/bingham/.ssh/id_inghamdev.pub
-      username: bingham
+  - email: brendan@ingham.dev
+    name: Brendan Ingham
+    ssh_private_key_file: /home/bingham/.ssh/id_inghamdev
+    ssh_public_key_file: /home/bingham/.ssh/id_inghamdev.pub
+    username: bingham

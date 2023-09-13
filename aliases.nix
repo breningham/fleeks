@@ -1,18 +1,14 @@
 { pkgs, misc, ... }: {
   # DO NOT EDIT: This file is managed by fleek. Manual changes will be overwritten.
    home.shellAliases = {
-    "fleeks" = "cd ~/.local/share/fleek";
+    "apply-brens-home-pc" = "nix run --impure home-manager/master -- -b bak switch --flake .#bingham@brens-home-pc";
     
-    "la" = "lsd -A";
+    "fleeks" = "cd ~/.config/fleek";
     
-    "ll" = "lsd -l";
+    # bat --plain for unformatted cat
+    catp = "bat -P";
     
-    "lla" = "lsd -lA";
-    
-    "llt" = "lsd -l --tree";
-    
-    "ls" = "lsd";
-    
-    "lt" = "lsd --tree";
+    # replace cat with bat
+    cat = "bat";
     };
 }
