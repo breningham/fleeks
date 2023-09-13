@@ -22,6 +22,7 @@ packages:
     - lsd
     - zsh
     - lazygit
+    - jq
 paths:
     - $HOME/bin
     - $HOME/.local/bin

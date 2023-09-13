@@ -27,6 +27,7 @@
     pkgs.lsd
     pkgs.zsh
     pkgs.lazygit
+    pkgs.jq
     # Fleek Bling
     pkgs.git
     pkgs.htop
