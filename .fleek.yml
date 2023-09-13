@@ -19,6 +19,7 @@ packages:
     - adw-gtk3
     - volta
     - neovim
+    - lsd
 paths:
     - $HOME/bin
     - $HOME/.local/bin

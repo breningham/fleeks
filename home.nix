@@ -24,6 +24,7 @@
     pkgs.adw-gtk3
     pkgs.volta
     pkgs.neovim
+    pkgs.lsd
     # Fleek Bling
     pkgs.git
     pkgs.htop
