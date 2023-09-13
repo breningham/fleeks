@@ -18,6 +18,7 @@ packages:
     - helix
     - adw-gtk3
     - volta
+    - neovim
 paths:
     - $HOME/bin
     - $HOME/.local/bin
@@ -35,6 +36,6 @@ unfree: true
 users:
     - email: brendan@ingham.dev
       name: Brendan Ingham
-      ssh_private_key_file: .ssh/id_inghamdev
-      ssh_public_key_file: .ssh/id_inghamdev.pub
+      ssh_private_key_file: /home/bingham/.ssh/id_inghamdev
+      ssh_public_key_file: /home/bingham/.ssh/id_inghamdev.pub
       username: bingham

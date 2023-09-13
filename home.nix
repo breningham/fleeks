@@ -23,6 +23,7 @@
     pkgs.helix
     pkgs.adw-gtk3
     pkgs.volta
+    pkgs.neovim
     # Fleek Bling
     pkgs.git
     pkgs.htop
