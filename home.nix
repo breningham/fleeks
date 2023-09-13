@@ -31,6 +31,7 @@
     pkgs.neofetch
     pkgs.btop
     pkgs.atuin
+    pkgs.zoxide
     # Fleek Bling
     pkgs.git
     pkgs.htop

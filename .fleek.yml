@@ -26,6 +26,7 @@ packages:
     - neofetch
     - btop
     - atuin
+    - zoxide
 paths:
     - $HOME/bin
     - $HOME/.local/bin
