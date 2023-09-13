@@ -23,6 +23,7 @@ packages:
     - zsh
     - lazygit
     - jq
+    - neofetch
 paths:
     - $HOME/bin
     - $HOME/.local/bin
