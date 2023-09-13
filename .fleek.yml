@@ -25,6 +25,7 @@ packages:
     - jq
     - neofetch
     - btop
+    - atuin
 paths:
     - $HOME/bin
     - $HOME/.local/bin

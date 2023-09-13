@@ -30,6 +30,7 @@
     pkgs.jq
     pkgs.neofetch
     pkgs.btop
+    pkgs.atuin
     # Fleek Bling
     pkgs.git
     pkgs.htop
