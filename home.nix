@@ -25,6 +25,7 @@
     pkgs.volta
     pkgs.neovim
     pkgs.lsd
+    pkgs.zsh
     # Fleek Bling
     pkgs.git
     pkgs.htop
