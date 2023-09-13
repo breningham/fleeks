@@ -26,6 +26,7 @@
     pkgs.neovim
     pkgs.lsd
     pkgs.zsh
+    pkgs.lazygit
     # Fleek Bling
     pkgs.git
     pkgs.htop
