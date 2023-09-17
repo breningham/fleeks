@@ -32,6 +32,7 @@
     pkgs.btop
     pkgs.atuin
     pkgs.zoxide
+    pkgs.fd
     # Fleek Bling
     pkgs.git
     pkgs.htop
