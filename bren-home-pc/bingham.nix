@@ -18,8 +18,8 @@
         };
 
         signing = {
-            key = "/home/bingham/.ssh/id_inghamdev";
-            signByDefault = builtins.stringLength "/home/bingham/.ssh/id_inghamdev" > 0;
+            key = "/home/bingham/.ssh/id_ed25519";
+            signByDefault = builtins.stringLength "/home/bingham/.ssh/id_ed25519" > 0;
         };
 
         lfs.enable = true;
