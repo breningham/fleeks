@@ -35,6 +35,7 @@
     pkgs.fd
     pkgs.awscli2
     pkgs.vimPlugins.lspsaga-nvim
+    pkgs.vimPlugins.mason-nvim
     # Fleek Bling
     pkgs.git
     pkgs.htop
