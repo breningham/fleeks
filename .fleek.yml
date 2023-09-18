@@ -32,6 +32,7 @@ packages:
     - awscli2
     - vimPlugins.nvim-treesitter
     - bitwarden
+    - bws
 paths:
     - $HOME/bin
     - $HOME/.local/bin
