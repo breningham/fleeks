@@ -34,6 +34,7 @@
     pkgs.zoxide
     pkgs.fd
     pkgs.awscli2
+    pkgs.vimPlugins.lspsaga-nvim
     # Fleek Bling
     pkgs.git
     pkgs.htop
