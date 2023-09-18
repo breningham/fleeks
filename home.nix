@@ -33,6 +33,7 @@
     pkgs.atuin
     pkgs.zoxide
     pkgs.fd
+    pkgs.awscli2
     # Fleek Bling
     pkgs.git
     pkgs.htop
