@@ -32,6 +32,7 @@ packages:
     - awscli2
     - vimPlugins.lspsaga-nvim
     - vimPlugins.mason-nvim
+    - vimPlugins.nvim-treesitter
 paths:
     - $HOME/bin
     - $HOME/.local/bin
