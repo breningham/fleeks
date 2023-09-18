@@ -35,6 +35,7 @@
     pkgs.fd
     pkgs.awscli2
     pkgs.vimPlugins.nvim-treesitter
+    pkgs.bitwarden
     # Fleek Bling
     pkgs.git
     pkgs.htop
