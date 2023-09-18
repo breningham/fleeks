@@ -29,7 +29,6 @@ packages:
     - atuin
     - zoxide
     - fd
-    - awscli
 paths:
     - $HOME/bin
     - $HOME/.local/bin
