@@ -23,7 +23,6 @@
     pkgs.helix
     pkgs.adw-gtk3
     pkgs.volta
-    pkgs.neovim
     pkgs.lsd
     pkgs.zsh
     pkgs.lazygit
@@ -34,7 +33,6 @@
     pkgs.zoxide
     pkgs.fd
     pkgs.awscli2
-    pkgs.vimPlugins.nvim-treesitter
     pkgs.bws
     pkgs.bitwarden-cli
     # Fleek Bling

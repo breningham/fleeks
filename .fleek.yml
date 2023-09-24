@@ -19,7 +19,6 @@ packages:
     - helix
     - adw-gtk3
     - volta
-    - neovim
     - lsd
     - zsh
     - lazygit
@@ -30,7 +29,6 @@ packages:
     - zoxide
     - fd
     - awscli2
-    - vimPlugins.nvim-treesitter
     - bws
     - bitwarden-cli
 paths:
