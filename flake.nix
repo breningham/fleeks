@@ -45,27 +45,6 @@
         ];
       };
       
-      "bingham@bren-home-pc" = home-manager.lib.homeManagerConfiguration {
-        pkgs = nixpkgs.legacyPackages.x86_64-linux; # Home-manager requires 'pkgs' instance
-        extraSpecialArgs = { inherit inputs; }; # Pass flake inputs to our config
-        modules = [
-          ./home.nix 
-          ./path.nix
-          ./shell.nix
-          ./user.nix
-          ./aliases.nix
-          ./programs.nix
-          # Host Specific configs
-          ./bren-home-pc/bingham.nix
-          ./bren-home-pc/custom.nix
-          # self-manage fleek
-          ({
-           nixpkgs.overlays = [];
-          })
-
-        ];
-      };
-      
     };
   };
 }

@@ -43,11 +43,6 @@ systems:
       hostname: brens-home-pc
       os: linux
       username: bingham
-    - arch: x86_64
-      home: ""
-      hostname: bren-home-pc
-      os: linux
-      username: bingham
 track: nixos-unstable
 unfree: true
 users:
