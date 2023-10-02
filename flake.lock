@@ -5,11 +5,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1696091195,
-        "narHash": "sha256-OXorq1lucC+L6gmBs1LGSh7s5B9Ixj75Yb513ClCJ40=",
+        "lastModified": 1696262107,
+        "narHash": "sha256-B4ucxwPK7GZt1tEWfrMzjYSmVHEQJKtZsEqFW5ajIA4=",
         "owner": "ublue-os",
         "repo": "fleek",
-        "rev": "f8b87753a684eb3038a3b6052ad3298f8795b086",
+        "rev": "c8de29b04c35f6f958660c8512d14bd9db15a252",
         "type": "github"
       },
       "original": {
