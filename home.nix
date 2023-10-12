@@ -25,24 +25,26 @@
     pkgs.volta
     pkgs.lsd
     pkgs.zsh
-    pkgs.lazygit
-    pkgs.jq
-    pkgs.neofetch
-    pkgs.btop
-    pkgs.atuin
-    pkgs.zoxide
     pkgs.fd
     pkgs.awscli2
     pkgs.bws
     pkgs.bitwarden-cli
-    pkgs.direnv
-    pkgs.github-cli
-    pkgs.starship
-    pkgs.ripgrep
-    pkgs.fzf
-    pkgs.yq
     # Fleek Bling
     pkgs.git
+    pkgs.htop
+    pkgs.github-cli
+    pkgs.glab
+    pkgs.fzf
+    pkgs.ripgrep
+    pkgs.vscode
+    pkgs.lazygit
+    pkgs.jq
+    pkgs.yq-go
+    pkgs.neovim
+    pkgs.neofetch
+    pkgs.btop
+    pkgs.cheat
+    pkgs.just
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true; 

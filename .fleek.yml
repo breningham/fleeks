@@ -3,8 +3,7 @@ aliases:
     fleeks: cd ~/.local/share/fleek
 allow_broken: false
 auto_gc: false
-bling: none
-blocklist: []
+bling: high
 byo_git: false
 ejected: false
 flakedir: .local/share/fleek
@@ -22,22 +21,12 @@ packages:
     - volta
     - lsd
     - zsh
-    - lazygit
-    - jq
-    - neofetch
-    - btop
-    - atuin
-    - zoxide
     - fd
     - awscli2
     - bws
     - bitwarden-cli
-    - direnv
-    - github-cli
-    - starship
-    - ripgrep
-    - fzf
-    - yq
+blocklist: 
+    - code
 paths:
     - $HOME/bin
     - $HOME/.local/bin
