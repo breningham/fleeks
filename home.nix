@@ -14,21 +14,11 @@
   };
 
   
-  # managed by fleek, modify ~/.fleek.yml to change installed packages
-  
   # packages are just installed (no configuration applied)
   # programs are installed and configuration applied to dotfiles
   home.packages = [
     # user selected packages
     pkgs.helix
-    pkgs.adw-gtk3
-    pkgs.volta
-    pkgs.lsd
-    pkgs.zsh
-    pkgs.fd
-    pkgs.awscli2
-    pkgs.bws
-    pkgs.bitwarden-cli
     # Fleek Bling
     pkgs.git
     pkgs.htop
@@ -37,13 +27,6 @@
     pkgs.fzf
     pkgs.ripgrep
     pkgs.vscode
-    pkgs.lazygit
-    pkgs.jq
-    pkgs.yq-go
-    pkgs.neovim
-    pkgs.neofetch
-    pkgs.btop
-    pkgs.cheat
     pkgs.just
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
