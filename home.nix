@@ -35,6 +35,7 @@
     pkgs.awscli2
     pkgs.bws
     pkgs.bitwarden-cli
+    pkgs.direnv
     # Fleek Bling
     pkgs.git
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })

@@ -32,6 +32,7 @@ packages:
     - awscli2
     - bws
     - bitwarden-cli
+    - direnv
 paths:
     - $HOME/bin
     - $HOME/.local/bin
