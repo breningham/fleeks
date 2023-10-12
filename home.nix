@@ -38,6 +38,9 @@
     pkgs.direnv
     pkgs.github-cli
     pkgs.starship
+    pkgs.ripgrep
+    pkgs.fzf
+    pkgs.yq
     # Fleek Bling
     pkgs.git
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })

@@ -35,6 +35,9 @@ packages:
     - direnv
     - github-cli
     - starship
+    - ripgrep
+    - fzf
+    - yq
 paths:
     - $HOME/bin
     - $HOME/.local/bin
