@@ -33,6 +33,7 @@ packages:
     - bws
     - bitwarden-cli
     - direnv
+    - github-cli
 paths:
     - $HOME/bin
     - $HOME/.local/bin
