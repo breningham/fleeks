@@ -28,6 +28,7 @@
     pkgs.awscli2
     pkgs.bws
     pkgs.bitwarden-cli
+    pkgs.volta
     # Fleek Bling
     pkgs.git
     pkgs.htop

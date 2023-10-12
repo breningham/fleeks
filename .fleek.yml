@@ -25,9 +25,9 @@ packages:
   - awscli2
   - bws
   - bitwarden-cli
+  - volta
 programs:
   - dircolors
-  - volta
 paths:
   - $HOME/bin
   - $HOME/.local/bin
