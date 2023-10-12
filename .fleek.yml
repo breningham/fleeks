@@ -2,6 +2,7 @@ aliases:
     apply-brens-home-pc: nix run --impure home-manager/master -- -b bak switch --flake .#bingham@brens-home-pc
     fleeks: cd ~/.local/share/fleek
 allow_broken: false
+auto_gc: false
 bling: default
 blocklist: []
 byo_git: false
@@ -43,6 +44,12 @@ systems:
       home: ""
       hostname: brens-home-pc
       os: linux
+      user:
+        email: brendan@ingham.dev
+        name: Brendan Ingham
+        ssh_private_key_file: /home/bingham/.ssh/id_ed25519
+        ssh_public_key_file: /home/bingham/.ssh/id_ed25519.pub
+        username: bingham
       username: bingham
 track: nixos-unstable
 unfree: true

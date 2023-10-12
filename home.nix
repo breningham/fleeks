@@ -43,6 +43,7 @@
     pkgs.fzf
     pkgs.ripgrep
     pkgs.vscode
+    pkgs.just
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true; 
