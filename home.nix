@@ -37,6 +37,7 @@
     pkgs.bitwarden-cli
     pkgs.direnv
     pkgs.github-cli
+    pkgs.starship
     # Fleek Bling
     pkgs.git
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })

@@ -34,6 +34,7 @@ packages:
     - bitwarden-cli
     - direnv
     - github-cli
+    - starship
 paths:
     - $HOME/bin
     - $HOME/.local/bin
