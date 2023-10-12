@@ -22,7 +22,6 @@
     # user selected packages
     pkgs.helix
     pkgs.adw-gtk3
-    pkgs.volta
     pkgs.lsd
     pkgs.zsh
     pkgs.fd
