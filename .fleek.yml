@@ -27,13 +27,13 @@ packages:
     - bws
     - bitwarden-cli
     - volta
-    - kitty
 paths:
     - $HOME/bin
     - $HOME/.local/bin
     - $HOME/.volta/bin
 programs:
     - dircolors
+    - kitty
 shell: zsh
 systems:
     - arch: x86_64
