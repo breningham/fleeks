@@ -14,6 +14,7 @@
 
   # User specified programs 
     programs.dircolors.enable = true; 
-    programs.kitty.enable = true;
+    programs.kitty.enable = true; 
+    programs.tmux.enable = true;
 
 }
