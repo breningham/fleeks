@@ -29,6 +29,7 @@
     pkgs.bws
     pkgs.bitwarden-cli
     pkgs.volta
+    pkgs.fish
     # Fleek Bling
     pkgs.git
     pkgs.htop

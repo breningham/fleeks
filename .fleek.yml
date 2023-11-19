@@ -4,6 +4,7 @@ aliases:
 allow_broken: false
 auto_gc: false
 bling: high
+blocklist: []
 byo_git: false
 ejected: false
 flakedir: .local/share/fleek
@@ -25,6 +26,7 @@ packages:
     - bws
     - bitwarden-cli
     - volta
+    - fish
 paths:
     - $HOME/bin
     - $HOME/.local/bin
