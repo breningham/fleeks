@@ -27,6 +27,7 @@ packages:
     - bitwarden-cli
     - volta
     - fish
+    - spotify
 paths:
     - $HOME/bin
     - $HOME/.local/bin

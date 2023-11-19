@@ -30,6 +30,7 @@
     pkgs.bitwarden-cli
     pkgs.volta
     pkgs.fish
+    pkgs.spotify
     # Fleek Bling
     pkgs.git
     pkgs.htop
