@@ -10,7 +10,7 @@
             add-nowhitespace = "!git diff -U0 -w --no-color | git apply --cached --ignore-whitespace --unidiff-zero -";
         };
         userName = "Brendan Ingham";
-        userEmail = "brendan@ingham.dev";
+        userEmail = "brendan.ingham@cinch.co.uk";
         extraConfig = {
             feature.manyFiles = true;
             init.defaultBranch = "main";
@@ -18,8 +18,8 @@
         };
 
         signing = {
-            key = "/home/bingham/.ssh/id_ed25519";
-            signByDefault = builtins.stringLength "/home/bingham/.ssh/id_ed25519" > 0;
+            key = "~/.ssh/id_ed25519";
+            signByDefault = builtins.stringLength "~/.ssh/id_ed25519" > 0;
         };
 
         lfs.enable = true;
