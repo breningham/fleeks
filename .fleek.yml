@@ -4,8 +4,6 @@ aliases:
 allow_broken: false
 auto_gc: false
 bling: high
-blocklist:
-    - vscode
 byo_git: false
 ejected: false
 flakedir: .local/share/fleek
